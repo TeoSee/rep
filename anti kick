@@ -1,0 +1,7 @@
+game.ReplicatedStorage.Events.SendMsg.OnClientEvent:Connect(function(message)
+    local msg = string.split(message, " ")
+    
+    if game.Players:FindFirstChild(msg[1]) and msg[7] == "1" and msg[12] == game.Players.LocalPlayer.Name then
+        game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, LocalPlayer)
+    end
+end)
