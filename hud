@@ -48,9 +48,9 @@
 
 	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 
-	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "ВСУ"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Blue.Label.Text = "Украина"
 
-	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "АЛЛАХИ"
+	game:GetService("Players").LocalPlayer.PlayerGui.GUI.TeamSelection.Red.Label.Text = "Россия"
 
 	game:GetService("Players").LocalPlayer.PlayerGui.GUI.CTWin.Transparency = 0.8
 
